@@ -240,3 +240,38 @@ nav ul li a{
     color: #627382;
     margin-bottom: 32px;
 }
+footer{
+    background-color: #001931;
+}
+footer .footer-content{
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 80px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content .footer-logo img{
+    gap: 25px;
+}
+.footer-content h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-logo{
+    width: 139px;
+    height: 60px;
+}
+footer .copyright{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
